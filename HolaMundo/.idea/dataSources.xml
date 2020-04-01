@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hola" uuid="28795546-c39a-4089-9259-ffc25dfa16d2">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:F:\LoQueUso\UNSL\2020\Primer-Cuatrimestre\Arquitectura\Practicos\Java\Practico3\HolaMundo\DB\hola.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
