@@ -1,0 +1,1 @@
+INSERT INTO DEPTO VALUES(1, "Contaduria", "Juan Perez")
