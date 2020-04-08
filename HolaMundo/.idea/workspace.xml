@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fe9b3d9-5540-481e-9803-02da5a267ca0" name="Default Changelist" comment="" />
+    <list default="true" id="9fe9b3d9-5540-481e-9803-02da5a267ca0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZwKc6tWWFtmTDN4enl4z6NKCMC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -58,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\LoQueUso\UNSL\2020\Primer-Cuatrimestre\Arquitectura\Practicos\Java\Practico3\HolaMundo\src\main\resources\DB" />
       <recent name="F:\LoQueUso\UNSL\2020\Primer-Cuatrimestre\Arquitectura\Practicos\Java\Practico3\HolaMundo\src\main\resources" />
       <recent name="F:\LoQueUso\UNSL\2020\Primer-Cuatrimestre\Arquitectura\Practicos\Java\Practico3\HolaMundo\src\DB" />
     </key>
@@ -86,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585744792286</updated>
-      <workItem from="1585744795287" duration="5443000" />
+      <workItem from="1585744795287" duration="6025000" />
+      <workItem from="1585766779298" duration="122000" />
     </task>
     <servers />
   </component>
@@ -98,26 +106,26 @@
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
     <state x="1632" y="475" key="#Project_Structure/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585745743032" />
-    <state x="1819" y="572" key="FileChooserDialogImpl" timestamp="1585747891060">
+    <state x="1819" y="572" key="FileChooserDialogImpl" timestamp="1585766827271">
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
-    <state x="1819" y="572" key="FileChooserDialogImpl/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585747891060" />
-    <state width="1317" height="111" key="GridCell.Tab.0.bottom" timestamp="1585750593347">
+    <state x="1819" y="572" key="FileChooserDialogImpl/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585766827271" />
+    <state width="1317" height="111" key="GridCell.Tab.0.bottom" timestamp="1585751032554">
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
-    <state width="1317" height="111" key="GridCell.Tab.0.bottom/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585750593347" />
-    <state width="1317" height="111" key="GridCell.Tab.0.center" timestamp="1585750593347">
+    <state width="1317" height="111" key="GridCell.Tab.0.bottom/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585751032554" />
+    <state width="1317" height="111" key="GridCell.Tab.0.center" timestamp="1585751032554">
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
-    <state width="1317" height="111" key="GridCell.Tab.0.center/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585750593347" />
-    <state width="1317" height="111" key="GridCell.Tab.0.left" timestamp="1585750593347">
+    <state width="1317" height="111" key="GridCell.Tab.0.center/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585751032554" />
+    <state width="1317" height="111" key="GridCell.Tab.0.left" timestamp="1585751032554">
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
-    <state width="1317" height="111" key="GridCell.Tab.0.left/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585750593347" />
-    <state width="1317" height="111" key="GridCell.Tab.0.right" timestamp="1585750593347">
+    <state width="1317" height="111" key="GridCell.Tab.0.left/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585751032554" />
+    <state width="1317" height="111" key="GridCell.Tab.0.right" timestamp="1585751032554">
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
-    <state width="1317" height="111" key="GridCell.Tab.0.right/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585750593347" />
+    <state width="1317" height="111" key="GridCell.Tab.0.right/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585751032554" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585748802954">
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
@@ -126,9 +134,13 @@
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
     <state x="1541" y="459" key="SettingsEditor/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585748004300" />
-    <state x="1422" y="519" key="new project wizard" timestamp="1585747928595">
+    <state x="1736" y="641" key="com.intellij.ide.util.TipDialog" timestamp="1585766779187">
       <screen x="1360" y="453" width="1360" height="728" />
     </state>
-    <state x="1422" y="519" key="new project wizard/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585747928595" />
+    <state x="1736" y="641" key="com.intellij.ide.util.TipDialog/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585766779187" />
+    <state x="1422" y="519" key="new project wizard" timestamp="1585766898518">
+      <screen x="1360" y="453" width="1360" height="728" />
+    </state>
+    <state x="1422" y="519" key="new project wizard/1360.453.1360.728/0.0.1360.728@1360.453.1360.728" timestamp="1585766898518" />
   </component>
 </project>
