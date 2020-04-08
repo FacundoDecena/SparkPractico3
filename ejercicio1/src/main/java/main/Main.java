@@ -12,8 +12,6 @@ import static spark.Spark.post;
 import static spark.debug.DebugScreen.enableDebugScreen;
 import util.Path;
 
-import util.*;
-
 public class Main {
    
    public static void main(String[] args) { 
@@ -23,7 +21,7 @@ public class Main {
         
         get(Path.Web.GET_DEPARTAMENTOS, DepartamentoController.getDepartamentos); 
         get(Path.Web.GET_EMPLEADOS, EmpleadoController.getEmpleados); 
-        
+
         post(Path.Web.getGET_DEPARTAMENTOS(), null );   
 
     }
