@@ -1,0 +1,13 @@
+<p>
+    <table>
+        <tr>
+            <th>Departamento</th><th>Cantidad de empleados</th>
+        </tr>
+        #foreach( $key in $codigoCantidad.keySet() )
+            <tr>
+                <td>$key</td>
+                <td>$codigoCantidad.get($key)</td>
+            <tr>
+        #end
+    </table>
+</P>

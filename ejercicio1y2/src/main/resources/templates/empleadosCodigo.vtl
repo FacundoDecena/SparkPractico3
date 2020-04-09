@@ -1,0 +1,25 @@
+<form action="/empleados" method="get">
+    <label for="codigo">Codigo de departamento</label><br>
+    <input id="codigo" name="codigo" type="number" value="$codigo" step="1" min="0"/><br>
+
+    <input type="submit" formaction="/empleados" value="Buscar empleados">
+</form>
+
+<p>
+    #if($message)
+        $message
+    #else
+        <table>
+            <tr>
+                <th>Nombre</th><th>Categoria</th><th>Dedicacion</th>
+            </tr>
+            #foreach($empleado in $empleados)
+                <tr>
+                    <td>$empleado.getNombre()</td>
+                    <td>$empleado.getCategoria()</td>
+                    <td>$empleado.getDedicacion()</td>
+                <tr>
+            #end
+        </table>
+    #end
+</p>

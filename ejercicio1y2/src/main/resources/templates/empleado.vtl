@@ -1,0 +1,29 @@
+<form action="add-empleado" method="post">
+    <label for="nombre">Nombre del empleado</label><br>
+    <input id="nombre" name="nombre" type="text"/><br>
+
+    <label for="categoria">Categoria del empleado</label><br>
+    <input id="categoria" name="categoria" type="text"/><br>
+
+    <p>
+        <label for="dedicacion">Dedicacion</label><br>
+        <select id="dedicacion" name="dedicacion">
+            <option value="Medio Jornada">Medio Jornada</option>
+            <option value="Jornada Completa">Jornada Completa</option>
+            <option value="Tercerizado">Tercerizado</option>
+        </select><br>
+    </p>
+
+    <p>
+        <label for="codigo">Departamento</label><br>
+        <select id="codigo" name="codigo">
+            #foreach($depto in $departamentos)
+                <option value="$depto.getCodigo()">$depto.getNombre()</option>
+            #end
+        </select><br>
+    </p>
+
+    <input type="submit" value="Agregar Empleado">
+</form>
+
+ $!message

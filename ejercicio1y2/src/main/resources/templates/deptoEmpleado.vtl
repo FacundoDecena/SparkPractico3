@@ -1,0 +1,25 @@
+<form action="/depto" method="get">
+    <label for="nombre">Codigo de departamento</label><br>
+    <input id="nombre" name="nombre" type="text" value="$!nombre"/><br>
+
+    <input type="submit" formaction="/depto" value="Buscar DEPARTAMENTO">
+</form>
+
+<p>
+    #if($message)
+        $message
+    #else
+        <table>
+            <tr>
+                <th>Codigo</th><th>Nombre</th><th>Director</th>
+            </tr>
+            #foreach($depto in $departamento)
+                <tr>
+                    <td>$depto.getCodigo()</td>
+                    <td>$depto.getNombre()</td>
+                    <td>$depto.getDirector()</td>
+                <tr>
+            #end
+        </table>
+    #end
+</p>
