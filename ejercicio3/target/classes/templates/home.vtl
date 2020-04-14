@@ -1,0 +1,31 @@
+#foreach ($user in $users)
+    Logueado como:
+    $user.getNombre()
+    #set($id = $user.getId())
+#end
+<form action="/add" method="post">
+    <p>
+        <label for="titulo">Peliculas</label><br>
+        <select id="titulo" name="titulo">
+            #foreach($movie in $movies)
+                <option value="$movie.getTitulo()">$movie.getTitulo()</option>
+            #end
+        </select><br>
+    </p>
+    <input type="hidden" id="id" name="id" value="$id">
+    <input type="submit" value="Ver">
+</form>
+
+<form>
+    <p>
+        <label for="recomendadas">Recomendadas</label><br>
+        <select id="recomendadas" name="recomendadas">
+            #foreach($recommended in $recommendeds)
+                <option value="$recommended.getTitulo()">$recommended.getTitulo()</option>
+            #end
+        </select><br>
+    </p>
+    #if($recommendeds.size() > 0)
+        <input type="submit" value="Ver">
+    #end
+</form>
