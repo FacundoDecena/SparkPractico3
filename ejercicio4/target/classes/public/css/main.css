@@ -1,0 +1,59 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type=number], input[type=text], select{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: larger;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, table th {
+  border: 1px solid #000;
+}
+  
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+table td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+}
+
+div{
+  width: 25%;
+  background-color: #ddd;
+  padding: 8px 5px;
+  border-radius: 7px;
+  margin: 10px 0;
+}
+

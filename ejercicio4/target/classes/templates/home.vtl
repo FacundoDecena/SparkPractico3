@@ -1,0 +1,39 @@
+<form action="/home" method="get">
+<p>
+    <label for="origen">Origen</label><br>
+    <select id="origen" name="origen">
+        #foreach($ciudad in $ciudades)
+            #if($origen == $ciudad)
+                <option value="$ciudad" selected>$ciudad</option>
+            #else
+                <option value="$ciudad">$ciudad</option>
+            #end
+        #end
+    </select><br>
+    <label for="destino">Destino</label><br>
+    <select id="destino" name="destino">
+        #foreach($ciudad in $ciudades)
+            #if($destino == $ciudad)
+                <option value="$ciudad" selected>$ciudad</option>
+            #else
+                <option value="$ciudad">$ciudad</option>
+            #end
+        #end
+    </select><br>
+    <input type="submit" value="Buscar viajes"><br>
+    #if($recorridos)
+        #if($recorridos.size() == 0)
+            No hay viajes :(
+        #else
+            <label for="empresa">Empresas</label><br>
+            <select id="empresa" name="empresa">
+                #foreach($recorrido in $recorridos)
+                    <option value="$recorrido.getEmpresa()">$recorrido.getEmpresa() $$recorrido.getPrecio()</option>
+                #end
+            </select><br>
+            <input type="submit" value="Comprar" formaction="/confirmar">
+        #end
+    #end
+</p>
+
+</form>
